@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../fonts/RobotoBold/RobotoBold.eot");
+    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.test {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.block--item1 {
+    background: url('../img/Test-taskT.png')no-repeat;
+    width: 267px;
+    padding: 142px 9px 8px 10px;
+}
+
+.block--item1__circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: solid #ffffff 4px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 9px;
+    border-color: #ffffff33;
+    position: relative;
+}
+
+.block--item1__circle2{
+	position: absolute;
+	top: -4px;
+	right: -4px;
+}
+
+.block--item1__rating {
+    font-family: RobotoBold;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.block--item1__circle, .block--item1__name {
+    float: left;
+}
+
+.block--item1__name {
+    margin-top: 6px;
+}
+
+.block--item1__name {
+    font-family: RobotoBold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.45px;
+}
+
+.block--item1__link {
+    font-family: RalewayRegular;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.block--item1__foto1 {
+    font-family: RalewayRegular;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.block--item1__foto2 {
+    width: auto;
+}
+
+.block--item1__foto {
+    float: right;
+    margin: 35px 18px 0px 4px;
+}
+
+.block--item2 {
+    background: #ffffff;
+    width: 236px;
+    padding: 18px 40px 41px 10px;
+}
+
+.block--item2__title {
+    font-family: RobotoBold;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.block--item2__figure {
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+.block--item2__img {
+    width: auto;
+}
+
+.block--item2__img:nth-child(-n+3) {
+    margin-right: 3px;
+}
+
+.block--item2__text {
+    font-family: RalewayRegular;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.block--item2__text2 {
+    font-family: RobotoBold;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.block--test {
+    width: 286px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 5px rgba(161, 167, 167, 0.09);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
